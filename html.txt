@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css>
+
+  <title>zDOWgame</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">zDOWgame</a>
+    <nav class="navigation">
+      
+      <a href="#">social media</a>
+      <a href="#Game type">games</a>
+     
+      
+
+    </nav>
+
+    
+  </header>
+  <section class="main">
+    <div>
+    
+      <h2>Hello to zDOWgame</h2><br><span>this web for downlod game</span>
+     <br>
+    <a href="#Game type" class="main-btn"> view games</a>
+      
+    </a>
+   <section class="social media" id="social media"></section>
+    <div class="social-icons">
+      <br>
+      
+      <a href="https://www.facebook.com/profile.php?id=100092973428602&locale=ar_AR" ><i class="fab fa-facebook"></i> </a>
+      <a href="https://www.instagram.com/azouzabdhafid/"><i class="fab fa-instagram"></i></a>
+    </div>
+      </div>
+ 
+  </section>
+  <script src="script.js"></script>
+  <section class="cards" id="Game type">
+    <h2 class="titel"> Game type</h2>
+    <div class="content">
+      
+    
+    <div class="card">
+
+      <div class="icon1">
+        <i class="fab fa-playstation"></i>
+      </div>
+      <div class="info">
+        
+       <button><a href="#game of ps1 ">ps games</a></button> 
+        <p>game of playstation </p>
+        
+      </div>
+      
+    </div>
+
+    <div class="card">
+
+      <div class="icon2">
+        <i class="fab fa-xbox"></i>
+      </div>
+      <div class="info">
+        <button><a href="#game of xobx">xbox games</a></button>
+        <p>game of xbox </p>
+
+      
+      </div >
+      
+       </div >
+
+      <div class="card">
+
+        <div class="icon3">
+          <i class="fab fa-steam"></i>
+        </div>
+        <div class="info">
+          <button><a href="#game of pc">pc games</a></button>
+          
+          <p>game of pc </p>
+
+
+        </div >
+
+         </div >
+     </div >
+  </section>
+  <classection class="game of ps" id="game of ps1"></section>
+  <h2 class="titel1">wellcome to ps game
+    <br>
+    you find all ps game:
+    <br>
+    ps1/ps2/ps3/ps vita/ps4
+  </h2>
+  <div class="card">
+
+  <img class="ps1" src="Who still has the Ps1_.jpg">
+    <div class="info">
+      <button>ps1 game</button>
+      <p>game of ps1 </p>
+  </div>
+  </div>
+    
+    <div class="card">
+    <img class="ps2" src="A PS2 cult classic is coming back with a new PS5 game this February_ Japan-based studio Cosmo Machia announced Fantavision … Read More ».jpg">
+      <div class="info">
+        <button>ps2 game</button>
+        <p>game of ps2 </p>
+    </div>
+    </div>
+
+
+
+
+
+
+    
+   
+  
+  
+  </section>
+    
+</body>
+
+</html>

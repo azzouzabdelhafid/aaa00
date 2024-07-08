@@ -1,0 +1,292 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+*{
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1f4729;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display:  flex ;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  
+
+
+}
+
+
+.logo {
+  text-decoration: none;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+.navigation a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+ 
+}
+.navigation a:hover {
+  color: yellow;
+}
+section{
+  padding: 100px 200px;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background:url("image/Premium\ Photo\ _\ Professional\ E-Sports\ gamer\ rejoices\ in\ the\ victory_\ Non-existent\ person\ in\ Generative\ AI\ digital\ il.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+  
+  
+
+}
+
+
+.main h2 {
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.main span {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.main-btn {
+  color: white;
+  background-color: goldenrod;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1.9em;
+  font-weight: 500;
+  border-radius: 30px;
+  margin: 15px;
+  padding: 10px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+} 
+a {
+  color: wheat;
+}
+.main-btn:hover{
+  background-color: #ffb805;
+  transform: scale(1.1);
+}
+.social-icons a{
+  color: #fff;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+.titel{
+  display: flex;
+  justify-content: center;
+  color: #ac892f;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #ffffff;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 100%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+.icon1 {
+  color: #2e6db4;
+  font-size: 6em;
+  text-align: center;
+
+}
+.icon2{
+  color: green;
+  font-size: 6em;
+  text-align: center;
+
+}
+.icon3 {
+  font-size: 6em;
+  text-align: center;
+}
+p {
+  font-size: 25px;
+}
+info {
+  text-align: center;
+}
+info h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  color: #ac892f;
+}
+
+.main-btn1 :hover{
+   background-color: #ffb805;
+  transform: scale(1.1);
+}
+.icon1 {
+  color: white;
+  background-color: #2e6db4;
+  text-decoration: none;
+  transition: 0.7s ease;
+
+}
+.icon1:hover {
+  background:solid;
+  background-color:  #ffb805;
+  transform: scale(1.1);
+  border-radius: 30px;
+
+}
+
+.icon2 {
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  transition: 0.7s ease;
+}
+.icon2:hover {
+  background:solid;
+  background-color:  #ffb805;
+  transform: scale(1.1);
+  border-radius: 30px;
+}
+.icon3 {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  transition: 0.7s ease;
+  border: solid;
+}
+.icon3:hover {
+  background-color: #ffb805;
+  transform: scale(1.1);
+  border-radius: 30px;
+  bottom: 20px;
+
+}
+button {
+  border: solid black;
+  border-color: gold;
+  border-radius: 30px;
+  margin: 15px;
+  padding: 10px;
+  transition: 0.7s ease;
+}
+button:hover {
+  background-color: #ffb805;
+  transform: scale(1.1);
+  border-radius: 30px;
+  bottom: 20px;
+}
+button a {
+   text-decoration: none;
+  color: black;
+}
+.titel1{
+  text-align: center;
+  background-color: #2e6db4;
+  color: white;
+  font-size: 35px;
+  border: solid;
+  border-radius:50px ;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+.ps1{
+  font-size: 6em;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+}
+.ps1 {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  transition: 0.7s ease;
+  border: solid;
+  border-radius: 15px;
+}
+.ps1:hover{
+  color: #ffb805;
+  transform: scale(1.1);
+  border-radius: 30px;
+  bottom: 20px;
+  justify-content: center;
+}
+span2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.ps2 {
+  font-size: 6em;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 50px;
+}
+.ps2 {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  transition: 0.7s ease;
+  border: solid;
+  border-radius: 15px;
+  
+}
+.ps2:hover {
+  color: #ffb805;
+  transform: scale(1.1);
+  border-radius: 30px;
+  bottom: 20px;
+  justify-content: center;
+}
+div card {
+  display:block;
+  grid-template-columns: 1fr 1fr; 
+  gap: 15px;
+}
+
+
